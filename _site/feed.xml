@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seok Hyun Jin</title>
+    <description>Seok Hyun Jin</description>
+    <link>http://seokhyunjin.github.io/</link>
+    <atom:link href="http://seokhyunjin.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Test post</title>
+        <description>&lt;p&gt;I also want to test markdown.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;head
+    &lt;ul&gt;
+      &lt;li&gt;subhead
+        &lt;ul&gt;
+          &lt;li&gt;subsubhead&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 05 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://seokhyunjin.github.io/test/2016/09/05/Intro/</link>
+        <guid isPermaLink="true">http://seokhyunjin.github.io/test/2016/09/05/Intro/</guid>
+      </item>
+    
+  </channel>
+</rss>
