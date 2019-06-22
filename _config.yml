@@ -117,3 +117,5 @@ gems:
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
 paginate_path: "/blog/page:num"
+
+theme: jekyll-theme-minimal
