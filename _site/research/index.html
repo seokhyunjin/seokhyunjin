@@ -13,11 +13,11 @@
     <meta name="author" content="Seok Hyun Jin">
     
     
-    <link rel="canonical" href="http://sj372.bitbucket.io/research/">
+    <link rel="canonical" href="http://localhost:4000/research/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Seok Hyun Jin" href="/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?201805062306" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css?201906220113" type="text/css">
 
     <!-- Fonts -->
     
@@ -39,7 +39,7 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="Research">
     <meta property="og:description" content="Seok Hyun Jin">
-    <meta property="og:url" content="http://sj372.bitbucket.io/research/">
+    <meta property="og:url" content="http://localhost:4000/research/">
     <meta property="og:site_name" content="Seok Hyun Jin">
 
     <!-- Twitter Card -->
@@ -47,7 +47,7 @@
     
     <meta name="twitter:title" content="Research" />
     <meta name="twitter:description" content="Seok Hyun Jin" />
-    <meta name="twitter:url" content="http://sj372.bitbucket.io/research/" />
+    <meta name="twitter:url" content="http://localhost:4000/research/" />
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -177,30 +177,13 @@
   <div class="research">
 <br />
 
-
 <h2 id="EoE">Chinese Voting Process:</h2>
 This is a research project with  
 <a href="http://mimno.infosci.cornell.edu" target="_blank">Prof. David Mimno</a>
 and
 <a href="http://www.cs.cornell.edu/~moontae/" target="_blank">Moontae Lee</a>.
-<br />
-<br />
-<center>
-    <a href="/images/2d_embedding.png" target="_blank">
-        <img src="/images/2d_embedding.png" alt="EoE" style="width:;">
-    </a>
 
-
-</center>
-    <small>
-        <div style="line-height:175%;">
-            Figure shows a pattern in online communities of Amazon and more than <a href="http://stackexchange.com/sites?view=list#traffic" target="_blank">200 StackExchange communities</a>.
-            In the figure, we present 'Trendiess' (x-axis) and 'Conformity' (y-axis), which we claim are two major
-            factors of bias. Above embedding presents the varying degrees to which the two factors are present in different online communities.
-            One interesting result is the clustering of similar communities, even though we used no information on textual content.
-            Another interesting result is how the coordinates align with our intuitive expectation of bias for each community.
-        </div> 
-    </small>
+<br />
 <h4>Abstract:</h4>
     <div style="margin-left:2em;"
 <p>
@@ -209,27 +192,20 @@ User-provided helpfulness votes can make useful responses more visible, but voti
 We propose the Chinese Voting Process (CVP) which models the evolution of helpfulness votes as a self-reinforcing process dependent on position and presentation biases.
 We evaluate this model on Amazon product reviews and 84 StackExchange forums, measuring the intrinsic quality of individual responses and behavioral coefficients of different communities.
 </p>
-<!--
-<p>
-    Product reviews in e-Commerce websites and answers in Q&A forums provide important information for decision making.
-    Customers rely on product reviews to purchase quality products and services.
-    Users likewise acquire useful knowledge related to a question by examining various answers proposed by other users.
-    Due to the growing size of these information, it is becoming increasingly important to make excellent reviews and answers more accessible to aid better decisions.
-    Binary voting is a popular design for evaluating these reviews and answers, which aggregately realizes the notion of helpfulness/usefulness.
-</p>
-<p>
-    Instead of viewing each evaluation as an unbiased opinion that is independent from other evaluations, we claim that each evaluation is made under the influence of others.
-    Specifically, we propose a novel stochastic process called <i>Chinese Voting Process (CVP)</i>, an extension of the Chinese Restaurant Process and Distance Dependent
-    Chinese Restaurant Process, which models the evolution of evaluation votes.
-    CVP first assumes that people are more likely to cast votes on reviews/answers displayed above.
-    Once a user decides to cast vote on a particular review/answer, the sign of his or her vote is determined by the accumulated votes as well as the textual quality of the content.
-    CVP models the evolution of evaluation while holding the textual quality as being static and latent.
-</p>
-<p>
-    Based on this model, we analyze the evolution of evaluation votes in product reviews of Amazon and in answers of many StackExchange communities.
-</p>
--->
 </div>
+
+<center>
+        <img src="/images/2d_embedding.png" alt="EoE" style="width:;">
+</center>
+    <small>
+        <div style="line-height:175%;">
+            Figure shows a pattern in online communities of Amazon and more than <a href="http://stackexchange.com/sites?view=list#traffic" target="_blank">200 StackExchange communities</a>.
+            In the figure, we present two behavioral coefficients, 'Trendiess' (x-axis) and 'Conformity' (y-axis), which we claim are two major
+            factors of bias. Above embedding presents the varying degrees to which the two factors are present in different online communities.
+            One interesting result is the clustering of similar communities, even though we used no information on textual content.
+            Another interesting result is how the coordinates align with our intuitive expectation of bias for each community.
+        </div> 
+    </small>
 
 <h4>Publications:</h4>
 <div style="margin-left:2em;"> 
@@ -238,7 +214,7 @@ We evaluate this model on Amazon product reviews and 84 StackExchange forums, me
             <li>
             Moontae Lee, <u>Seok Hyun Jin</u>, David Mimno.
             "Beyond Exchangeability: The Chinese Voting Process". <br />
-            <strong>Accepted</strong> to Neural Information Processing Systems (NIPS), 2016,
+            Neural Information Processing Systems (NIPS), 2016,
             Barcelona, Spain. 
             <strong style='color:red;'>Full Oral</strong>
             <i> (Acceptance rate: 46 / 2500 ~ 1.84%)</i>
@@ -259,6 +235,27 @@ We evaluate this model on Amazon product reviews and 84 StackExchange forums, me
             </li>
         </ul> 
 </div>
+<!--
+<p>
+    Product reviews in e-Commerce websites and answers in Q&A forums provide important information for decision making.
+    Customers rely on product reviews to purchase quality products and services.
+    Users likewise acquire useful knowledge related to a question by examining various answers proposed by other users.
+    Due to the growing size of these information, it is becoming increasingly important to make excellent reviews and answers more accessible to aid better decisions.
+    Binary voting is a popular design for evaluating these reviews and answers, which aggregately realizes the notion of helpfulness/usefulness.
+</p>
+<p>
+    Instead of viewing each evaluation as an unbiased opinion that is independent from other evaluations, we claim that each evaluation is made under the influence of others.
+    Specifically, we propose a novel stochastic process called <i>Chinese Voting Process (CVP)</i>, an extension of the Chinese Restaurant Process and Distance Dependent
+    Chinese Restaurant Process, which models the evolution of evaluation votes.
+    CVP first assumes that people are more likely to cast votes on reviews/answers displayed above.
+    Once a user decides to cast vote on a particular review/answer, the sign of his or her vote is determined by the accumulated votes as well as the textual quality of the content.
+    CVP models the evolution of evaluation while holding the textual quality as being static and latent.
+</p>
+<p>
+    Based on this model, we analyze the evolution of evaluation votes in product reviews of Amazon and in answers of many StackExchange communities.
+</p>
+-->
+
 
 
 
