@@ -118,4 +118,4 @@ gems:
 exclude: [vendor]
 paginate_path: "/blog/page:num"
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-hacker
